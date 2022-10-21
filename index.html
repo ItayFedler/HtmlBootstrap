@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="h-100" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/bootstrap-rtl.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body class="d-flex flex-column h-100">
+<header class="web-header pt-3">
+    <div class="container pb-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-12 text-center">
+                <a class="blog-header-logo text-dark" href="index.html"><img src="images/logo.png" /></a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark-blue">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-sm-center" id="mainNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="index.html">דף הבית</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="ofanimSite.html">אתר אופנים</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="edmodo.html">Edmodo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="salaries.html">משכורות</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="google-drive.html">Google Drive</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="container mt-3 mb-5">
+    <div id="carouselPages" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselPages" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselPages" data-slide-to="1"></li>
+            <li data-target="#carouselPages" data-slide-to="2"></li>
+            <li data-target="#carouselPages" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" >
+            <div class="carousel-item active">
+                <a class="" href="edmodo.html">
+                    <img src="images/edmodoLogo.png" class="img-fluid" alt="Edmodo">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-link bg-dark-blue text-white" href="https://new.edmodo.com/home">כניסה לאתר</a>
+                    <a class="btn btn-link bg-dark-blue text-white" href="edmodo.html">למידע נוסף</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a class="" href="ofanimSite.html">
+                    <img src="images/ofanimLogo.png" class="img-fluid" alt="אתר אופנים">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-link bg-dark-blue text-white" href="https://ofanim.org.il/">כניסה לאתר</a>
+                    <a class="btn btn-link bg-dark-blue text-white" href="ofanimSite.html">למידע נוסף</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a class="" href="google-drive.html">
+                    <img src="images/googleDriveLogo.png" class="img-fluid" alt="Google Drive">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-link bg-dark-blue text-white" href="https://drive.google.com/drive/u/1/folders/1bv-QBh3JVKaBcssdJXzB08u2mCDD7M2w">כניסה לאתר</a>
+                    <a class="btn btn-link bg-dark-blue text-white" href="google-drive.html">למידע נוסף</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a class="" href="salaries.html">
+                    <img src="images/ofanim2Logo.png" class="img-fluid" alt="משכורות">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-link bg-dark-blue text-white" href="https://ofanimnet.secure.force.com/">כניסה לאתר</a>
+                    <a class="btn btn-link bg-dark-blue text-white" href="salaries.html">למידע נוסף</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselPages" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselPages" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+
+<footer class="footer mt-auto py-3">
+    <div class="container text-center">
+        <a class="text-dark-blue" href="#" data-toggle="modal" data-target="#about">אודות האתר</a>
+    </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="about">אודות הפרויקט</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+
+                <p class="dialogWindowText">
+                    <a class="text-dark-blue" href="http://www.hit.ac.il/telem/overview">הפקולטה לטכנולוגיות למידה</a><br>
+                    <a class="text-dark-blue" href="http://www.hit.ac.il/">מכון טכנולוגי חולון</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $('.carousel').carousel()
+    });
+
+</script>
+
+</body>
+</html>
